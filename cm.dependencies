@@ -28,7 +28,7 @@
         "target_path": "hardware/samsung_slsi-cm/exynos5430"
     },
     {
-        "repository": "android_kernel_samsung_a8elte",
-        "target_path": "kernel/samsung/a8elte"
+        "repository": "android_kernel_samsung_a7alte",
+        "target_path": "kernel/samsung/a7alte"
     }
 ]

@@ -1,7 +1,7 @@
 #
-# system.prop for slte
+# system.prop for a7alte
 #
-ro.product.model=SM-A800F
+ro.product.model=SM-A700F
 ro.product.brand=samsung
 ro.product.name=a8eltexx
 ro.product.device=a8elte

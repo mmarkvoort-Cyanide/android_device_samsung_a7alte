@@ -1,9 +1,9 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/samsung/a8elte/BoardConfigVendor.mk
+-include vendor/samsung/a7alte/BoardConfigVendor.mk
 
-LOCAL_PATH := device/samsung/a8elte
+LOCAL_PATH := device/samsung/a7alte
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
@@ -43,7 +43,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 #BOARD_KERNEL_CMDLINE := The bootloader ignores the cmdline from the boot.img
 #BOARD_KERNEL_SEPARATED_DT := true
 # Extracted with libbootimg
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/a8elte/dtb.img
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/a7alte/dtb.img
 
 # fix this up by examining /proc/mtd on a running device
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00a00000
@@ -52,9 +52,9 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2401239040
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 28219277312
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-#TARGET_PREBUILT_KERNEL := device/samsung/a8elte/kernel
+#TARGET_PREBUILT_KERNEL := device/samsung/a7alte/kernel
 TARGET_KERNEL_CONFIG := a8mea_03_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/a8elte
+TARGET_KERNEL_SOURCE := kernel/samsung/a7alte
 # hardware/samsung_slsi/exynos/libhdmi_legacy
 TARGET_LINUX_KERNEL_VERSION := 3.10
 
@@ -190,7 +190,7 @@ BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
 # SELINUX
 BOARD_SEPOLICY_DIRS := \
-	device/samsung/a8elte/sepolicy
+	device/samsung/a7alte/sepolicy
 
 ###########################################################
 ### CYANOGEN RECOVERY

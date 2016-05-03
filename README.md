@@ -17,12 +17,12 @@ Copyright (C) 2014-2015 Andreas Schneider <asn@cryptomilk.org>
 
 * Description
 
-  This repository is for CM-13.0 on Samsung Galaxy A8 (A800F)
+  This repository is for CM-13.0 on Samsung Galaxy A7 (A700F)
 
     THIS IS WORK IN PROGRESS.
 
 
-* How To Build CM-13.0 for Samsung Galaxy A8
+* How To Build CM-13.0 for Samsung Galaxy A7
 
   - Make a workspace
 
