@@ -36,18 +36,21 @@ Copyright (C) 2014-2015 Andreas Schneider <asn@cryptomilk.org>
 
 
   - Create .repo/local_manifests/roomservice.xml with the following content:
+
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
-<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-<project name="Grace5921/hardware_samsung_slsi-cm" path="hardware/samsung/samsung_slsi-cm" remote="github"/>
-<project name="Grace5921/Kernel_samsung_a8elte" path="kernel/samsung/a8elte" remote="github" revision="cm-12.1"/>
-<project name="Grace5921/android_device_samsung_a8elte" path="device/samsung/a8elte" remote="github"/>
-<project name="Grace5921/external_stlport.git" path="external/stlport" remote="github" />
-<project name="Grace5921/android_vendor_samsung_a8elte" path="vendorsamsung/a8elte" remote="github" revision="master" />
+<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
+<project name="Grace5921/hardware_samsung_slsi-cm" path="hardware/samsung_slsi-cm" remote="github" revision="cm-13.0" />
+<project name="mmarkvoort/android_kernel_samsung_a7alte" path="kernel/samsung/a7alte" remote="github" revision="cm-13.0"/>
+<project name="mmarkvoort/android_device_samsung_a7alte" path="device/samsung/a7alte" remote="github" revision="cm-13.0" />
+<project name="Grace5921/external_stlport.git" path="external/stlport" remote="github" revision="cm-13.0" />
+<project name="mmarkvoort/android_vendor_samsung_a7alte" path="vendor/samsung/a7alte" remote="github" revision="cm-13.0" />
 </manifest>
-```xml
+```
+
 
   $ repo sync
 
