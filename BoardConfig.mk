@@ -53,7 +53,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12460032000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 #TARGET_PREBUILT_KERNEL := device/samsung/a7alte/kernel
-TARGET_KERNEL_CONFIG := a8mea_03_defconfig
+TARGET_KERNEL_CONFIG := exynos5430-base_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/a7alte
 # hardware/samsung_slsi/exynos/libhdmi_legacy
 TARGET_LINUX_KERNEL_VERSION := 3.10
