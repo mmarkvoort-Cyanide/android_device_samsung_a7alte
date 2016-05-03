@@ -3,8 +3,8 @@
 #
 ro.product.model=SM-A700F
 ro.product.brand=samsung
-ro.product.name=a8eltexx
-ro.product.device=a8elte
+ro.product.name=a7altexx
+ro.product.device=a7alte
 
 ro.sf.lcd_density=480
 
@@ -13,7 +13,7 @@ ro.sf.lcd_density=480
 #
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
-ro.telephony.ril_class=A8elteRIL
+ro.telephony.ril_class=A7alteRIL
 
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10

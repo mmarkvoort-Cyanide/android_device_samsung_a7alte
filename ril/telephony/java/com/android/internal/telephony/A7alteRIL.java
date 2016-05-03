@@ -36,7 +36,7 @@ import java.util.Collections;
  *
  * {@hide}
  */
-public class A8elteRIL extends RIL {
+public class A7alteRIL extends RIL {
 
     /**********************************************************
      * SAMSUNG REQUESTS
@@ -57,11 +57,11 @@ public class A8elteRIL extends RIL {
 
     private Message mPendingGetSimStatus;
 
-    public A8elteRIL(Context context, int preferredNetworkType, int cdmaSubscription) {
+    public A7alteRIL(Context context, int preferredNetworkType, int cdmaSubscription) {
         super(context, preferredNetworkType, cdmaSubscription, null);
     }
 
-    public A8elteRIL(Context context, int preferredNetworkType,
+    public A7alteRIL(Context context, int preferredNetworkType,
                    int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
     }
@@ -433,7 +433,7 @@ public class A8elteRIL extends RIL {
         }
 
         if (newResponse != origResponse) {
-            riljLog("A8elteRIL: remap unsolicited response from " +
+            riljLog("A7alteRIL: remap unsolicited response from " +
                     origResponse + " to " + newResponse);
             p.setDataPosition(dataPosition);
             p.writeInt(newResponse);
