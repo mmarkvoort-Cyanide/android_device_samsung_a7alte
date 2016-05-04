@@ -47,7 +47,7 @@ Copyright (C) 2014-2015 Andreas Schneider <asn@cryptomilk.org>
 <!--<project name="Grace5921/hardware_samsung_slsi-cm" path="hardware/samsung_slsi-cm" remote="github" revision="cm-13.0" />-->
  <project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" revesion="cm-13.0" />
  <project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" />
- <project name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="cryptomilk" />
+ <project name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" />
  <project name="projects/android/android_hardware_samsung_slsi_exynos5430" path="hardware/samsung_slsi-cm/exynos5430" remote="cryptomilk"  />
 <project name="mmarkvoort/android_kernel_samsung_a7alte" path="kernel/samsung/a7alte" remote="github" revision="cm-13.0"/>
 <project name="mmarkvoort/android_device_samsung_a7alte" path="device/samsung/a7alte" remote="github" revision="cm-13.0" />
