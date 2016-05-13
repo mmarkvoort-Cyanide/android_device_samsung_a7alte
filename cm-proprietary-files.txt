@@ -75,13 +75,18 @@ app/mcRegistry/ffffffff00000000000000000000000f.tlbin
 
 
 #system/vendor/firmware
-vendor/firmware/setfile_3p3.bin
-vendor/firmware/seiren_fw_dram.bin
-vendor/firmware/mfc_fw.bin
-vendor/firmware/hevc_fw.bin
-vendor/firmware/setfile_5e3.bin
-vendor/firmware/fimc_is_fw2_3p3.bin
-vendor/firmware/seiren_fw_sram.bin
+system/vendor/firmware/bcm4334_V1831.2321.hcd
+system/vendor/firmware/bcm4334_V1831.2321_B0.hcd
+system/vendor/firmware/bcm4334_V1831.2321_murata.hcd
+system/vendor/firmware/bcm4334_V1831.2321_semco.hcd
+system/vendor/firmware/fimc_is_fw2_3l2.bin
+system/vendor/firmware/hevc_fw.bin
+system/vendor/firmware/mfc_fw.bin
+system/vendor/firmware/sec_s3fwrn5_firmware.bin
+system/vendor/firmware/seiren_fw_dram.bin
+system/vendor/firmware/seiren_fw_sram.bin
+system/vendor/firmware/setfile_3l2.bin
+system/vendor/firmware/setfile_5e3.bin
 
 #npx
 /vendor/etc/nxp/LVVEFS_Rx_Configuration.txt
