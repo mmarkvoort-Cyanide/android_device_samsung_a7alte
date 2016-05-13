@@ -1,5 +1,5 @@
-### Bluetooth
-vendor/firmware/bcm43455_V0056.0058.hcd
+#bluetooth
+vendor/firmware/bcm4334_V1831.2321.hcd
 
 ### Wifi
 etc/wifi/bcmdhd_apsta.bin_b2
@@ -72,7 +72,6 @@ app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 
 
 #vendor/firmware
-vendor/firmware/bcm4334_V1831.2321.hcd
 vendor/firmware/bcm4334_V1831.2321_B0.hcd
 vendor/firmware/bcm4334_V1831.2321_murata.hcd
 vendor/firmware/bcm4334_V1831.2321_semco.hcd
