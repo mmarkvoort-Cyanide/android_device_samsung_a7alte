@@ -137,6 +137,8 @@ PRODUCT_PACKAGES += \
 	audio.usb.default \
 	audio.r_submix.default \
 	audio.primary.universal5430
+PRODUCT_COPY_FILES += \
+    device/samsung/a7alte/configs/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 ###########################################################
 ### OMX/MEDIA
 ###########################################################
