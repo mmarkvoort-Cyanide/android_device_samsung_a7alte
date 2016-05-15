@@ -29,8 +29,6 @@ vendor/lib/libmalicore.bc
 vendor/lib/egl/libGLES_mali.so
 vendor/lib/libRSDriverArm.so
 
-### OMX
-lib/omx/libOMX.Exynos.AVC.Encoder.so
 #sensor
 lib/hw/sensors.universal5430.so
 
