@@ -15,6 +15,7 @@ etc/wifi/wpa_supplicant_overlay.conf
 
 #audio
 etc/mixer_paths.xml
+lib/hw/audio.primary.universal5430
 
 ### Camera
 lib/hw/camera.universal5430.so
