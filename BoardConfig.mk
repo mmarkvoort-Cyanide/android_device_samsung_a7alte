@@ -230,3 +230,8 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 # The kernel has exfat support.
 TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_SUPERSU := true
+
+# Cyanide Build Flags
+TARGET_CYANIDE_ROM := 4.9
+TARGET_NDK_CYANIDE_ROM := 4.9
+TARGET_CYANIDE_ARM := 4.8
