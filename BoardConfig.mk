@@ -173,8 +173,10 @@ BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm7260
 # RIL.java overwrite
 BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
+TARGET_IGNORE_RO_BOOT_REVISION := true
 # frameworks/native/libs/binder/Parcel.cpp
-COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
+# This WILL be removed, it's for KITKAT blobs, wtf are we breaking LP blobs LOL
+# COMMON_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
 
 ### SENSORS
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
