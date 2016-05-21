@@ -21,6 +21,7 @@ lib/hw/audio.primary.universal5430.so
 lib/hw/camera.universal5430.so
 lib/libexynoscamera.so
 lib/libhwjpeg.so
+lib/libvdis.so
 
 # GPS
 bin/gpsd
@@ -34,6 +35,7 @@ vendor/lib/libRSDriverArm.so
 
 #sensor
 lib/hw/sensors.universal5430.so
+libalgobsx.so
 
 ### Widevine
 lib/liboemcrypto.so
