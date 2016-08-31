@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 LOCAL_PATH := device/samsung/a7alte
+LOCAL_DIR := device/samsung/a7alte
 PRODUCT_MAKEFILES := \
     $(LOCAT_DIR)/aosp_a7alte.mk \
     $(LOCAL_DIR)/device_a7alte.mk
