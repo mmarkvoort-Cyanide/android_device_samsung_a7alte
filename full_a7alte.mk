@@ -11,7 +11,7 @@ $(call inherit-product, vendor/cyanide/config/nfc_enhanced.mk)
 $(call inherit-product, device/samsung/a7alte/device_a7alte.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cyanide_a7alte
+PRODUCT_NAME := aosp_a7alte
 PRODUCT_DEVICE := a7alte
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
