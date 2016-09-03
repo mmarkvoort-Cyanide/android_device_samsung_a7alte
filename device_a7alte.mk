@@ -9,6 +9,10 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/a7alte/overlay
 
 LOCAL_PATH := device/samsung/a7alte
 
+PRODUCT_COPY_FILES := \
+	device/samsung/a7alte/zImage:kernel
+
+
 ###########################################################
 ### RAMDISK
 ###########################################################
